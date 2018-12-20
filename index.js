@@ -39,6 +39,13 @@ app.use((req, res, next) => {
 })
 
 app.get('/catalogs', routes.catalogs.getCatalog)
+app.post('/catalogs', routes.catalogs.addCatalog)
+app.put('/catalogs/:catalogId', routes.catalogs.updateCatalog)
+app.delete('/catalogs/:catalogId', routes.catalogs.deleteCatalog)
+
 app.get('/catalogs/:catalogId/books', routes.books.getBook)
+app.post('/catalogs/:catalogId/books', routes.books.addBook)
+app.put('/catalogs/:catalogId/books/:bookId', routes.books.updateBook)
+app.delete('/catalogs/:catalogId/books/:bookId', routes.books.deleteBook)
 
 app.listen(3000)
