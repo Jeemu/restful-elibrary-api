@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/Jeemu/restful-elibrary-api#readme",
   "dependencies": {
-    "body-parser": "1.18.3",
-    "express": "4.16.4",
-    "express-validator": "5.3.0"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.0"
   },
   "devDependencies": {
-    "morgan": "1.9.1"
+    "morgan": "^1.9.1"
   }
 }
