@@ -1,0 +1,33 @@
+{
+  "name": "restful-elibrary-api",
+  "version": "1.0.0",
+  "description": "A simple restful API for e-library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeemu/restful-elibrary-api.git"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "elibrary"
+  ],
+  "author": "Jeemu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeemu/restful-elibrary-api/issues"
+  },
+  "homepage": "https://github.com/Jeemu/restful-elibrary-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
